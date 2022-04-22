@@ -31,6 +31,13 @@
     
     NSLog(@"----5555");
     
+    
+    BeCentralVewController *vc = [[BeCentralVewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+    BePeripheralViewController *vc = [[BePeripheralViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 
